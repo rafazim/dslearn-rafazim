@@ -16,7 +16,7 @@ public class Notification {
 
     @Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
     private Instant moment;
-    private Boolean read = false;
+    private Boolean read;
     private String route;
 
     @ManyToOne
